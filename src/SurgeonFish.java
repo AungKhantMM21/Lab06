@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class SurgeonFish extends Fish{
 
-public class SurgeonFish {
+    @Override
+    public void swim(){
+        System.out.println("SurgeonFish is swimming gracefully!");
+    }
 }

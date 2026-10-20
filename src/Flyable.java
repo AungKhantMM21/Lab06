@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+public interface Flyable {
 
-public class Flyable {
+    public void fly();
 }

@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Insect implements Flyable{
 
-public class Insect {
+    @Override
+    public void fly(){
+        System.out.println("FlyingShark caught a flying creature!!!!!1");
+    }
 }
